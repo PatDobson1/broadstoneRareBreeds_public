@@ -1,0 +1,71 @@
+
+// -- Generic --------------------------------
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: $page-background-colour;
+    height: 100%;
+    color: $text-colour;
+    overflow-y: scroll;
+}
+h1,h2,h3{
+    font-family: 'Karma', serif;
+    margin: 0 0 20px 0;
+}
+h1{
+    font-size: 2.8em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.4em;
+}
+ol,ul{
+    margin: 0 0 20px 30px;
+    li{
+        margin: 0 0 10px 0;
+        line-height: 1.2em;
+    }
+    ol,ul{
+        margin: 10px 0 10px 30px;
+    }
+}
+ol{
+    list-style: decimal;
+}
+ul{
+    list-style: disc;
+}
+.menu{
+    position: absolute;
+    right: 20px;
+    z-index: 101;
+    a{
+        color: $menu-link-colour;
+        font-size: 1.2em;
+        margin: 0 0 0 20px;
+        cursor: pointer;
+        letter-spacing: 0.05em;
+        transition: all 0.1s ease-in-out;
+        text-decoration: none;
+        &:hover{
+            color: $menu-link-colour-hover;
+        }
+    }
+}
+.mobileMenu{
+    display: none;
+    position: absolute;
+    background-image: url('/menu.png');
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    right: 20px;
+    top: calc( 50% - 20px );
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+
+// -- Content --------------------------------
+
+.content{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $content-background-colour;
+    p{
+        margin: 0 0 20px 0;
+        letter-spacing: 0.03em;
+    }
+    .flexHolder{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .col3{
+            position: relative;
+            flex-basis: 33%;
+            padding: 20px;
+            img{
+                max-width: 100%;
+                border-radius: 5px;
+            }
+            span{
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                right: 20px;
+                font-size: 1.6em;
+                padding: 20px;
+                text-align: center;
+                background-color: rgba(255,255,255,0.5);
+                color: $text-colour;
+                text-shadow: 0px 2px 5px #ffffff;
+                transition: padding 0.1s ease;
+            }
+            &:hover span{
+                padding: 20px 20px 30px 20px;
+            }
+        }
+    }
+    .introText{
+        padding: 20px;
+        font-size: 1.1em;
+    }
+    .facebookHolder{
+        text-align: center;
+    }
+}

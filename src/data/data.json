@@ -1,0 +1,108 @@
+{
+    "pages": {
+        "home" : {
+          "title" : "",
+          "content" : "<p>HOME page content from JSON</p>",
+          "link" : "/",
+          "linkText" : "Home",
+          "displayOrder" : 10,
+          "onMenu" : true
+        },
+        "about" : {
+          "title" : "About Broadstone",
+          "content" : "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p><p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p><p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.</p><p>Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus.</p><p>Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p><p>Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.</p><p>Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna.</p>",
+          "link" : "/about",
+          "linkText" : "About",
+          "displayOrder" : 20,
+          "onMenu" : true
+        },
+        "forsale" : {
+          "title" : "Broadstone produce",
+          "content" : "<p>Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p><p>Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis.</p><p>Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque.</p><p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna.</p>",
+          "link" : "/forsale",
+          "linkText" : "For sale",
+          "displayOrder" : 30,
+          "onMenu" : true
+        },
+        "contact" : {
+          "title" : "Contact Broadstone",
+          "content" : "Some CONTACT page content",
+          "link" : "/contact",
+          "linkText" : "Contact",
+          "displayOrder" : 40,
+          "onMenu" : true
+        },
+        "terms" : {
+          "title" : "Terms and conditions of website use",
+          "content" : "<ol><li>By accessing this Website, you confirm that you are eligible (for example, a person of at least 16 years) to use this Website and you agree to be bound by all of the following terms and conditions of use (the 'Terms'). These Terms govern your access to the Website except where there are separate terms and conditions relevant to particular areas of this Website, which are indicated on the appropriate Website page. If you do not agree to abide by these Terms then you should not use the Website.</li><li>For clarity, in these Terms, references to 'we', 'us', 'our' and 'ourselves' are references to Broadstone UK Ltd.</li><li>Unless otherwise specified, the materials on this Website are directed solely at users who access this Website from the United Kingdom.</li><li>All material on this Website including any advertising and/or promotional idents, images, text and/or audio is our property or has been licensed to us. All trade marks, names, logos and other intellectual property rights existing in this Website are also owned or licensed by us. You may use this Website for your personal information and you may make a copy of the pages of this Website but only for your personal non-commercial use, provided that you keep all copyright and other proprietary notices intact. Any modification, transmission, hiring, copying (other than for non-commercial personal use), reusing or otherwise using the content of this Website for public or commercial purposes is prohibited.</li><li>Whilst we have worked diligently to provide accurate and complete information, we cannot be liable to any person for any loss or damage which may arise directly or indirectly from the use of this Website (or any inability to use it) or any of the information contained on this Website. This Website and the information and material which it contains are subject to change without notice. All warranties whether express or implied as to the accuracy or completeness of the information contained on this Website or in respect of any materials or products referred to on this Website are hereby excluded to the fullest extent permitted by law.</li><li>Links on this Website and may lead to third party websites. The content, accuracy and function of such websites is outside of our control and we cannot accept any responsibility for them and nor do we endorse the contents of such third party websites. In particular, any dealings that you have with such third party website operators shall be on the terms and conditions (if any) of that website operator.</li><li>Any communication or material which you transmit to us through this Website or otherwise via the Internet will be treated as non-confidential unless such communication or material includes personal information, which we will use in accordance with standard Privacy Policy guidelines.</li></ol><h1>Privacy &amp; Cookies</h1><h2>Privacy Policy</h2><ul><li>We are committed to protecting your privacy. We will only use the information that we collect about you lawfully (in accordance with the Data Protection Act 1998).</li><li>We only collect information about you for the purpose of direct contact to answer enquiries or aid in the completion of work.</li><li>We will not e-mail you in the future unless you have given us your consent. Consent is inferred when you contact us.</li><li>The type of information we may collect about you includes:<ul><li>Your name</li><li>Your telephone number</li><li>Your email address</li></ul></li><li>We will never collect sensitive information about you without your explicit consent.</li><li>Any personal information which we hold will be held securely in accordance with our internal security policy and the law.</li><li>If we intend to transfer your information outside the EEA (European Economic Area) we will always obtain your consent first.</li><li>We use technology to track the patterns of behaviour of visitors to our site. See below for further details of the Cookies usage on this site.</li><li>We will never sell or transfer your information to a third party.</li></ul><h2>Cookies</h2><h3>What are cookies?</h3><p>'Cookies' are small pieces of information that a website sends to your computer’s hard drive while you are viewing a website.</p><h3>How does this site use cookies ?</h3><ul><li><strong>Tracking/user analysis cookies</strong> : These allow us to see how many people are visiting this site and uses Google Analytics which sets a cookie on your computer.</li><li><strong>System cookies</strong> : These allow our website to remember any options that you, as a user set. This may include your language preferences, a shopping basket or a colour scheme.</li></ul>",
+          "link" : "/terms",
+          "linkText" : "Terms",
+          "displayOrder" : 50,
+          "onMenu" : false
+        },
+        "animals" : {
+          "title" : "About the Broadstone animals",
+          "content" : "Some ANIMALS page content",
+          "link" : "/animals",
+          "linkText" : "Animals",
+          "displayOrder" : 40,
+          "onMenu" : false
+        },
+        "farm" : {
+          "title" : "About Broadstone farm",
+          "content" : "Some FARM page content",
+          "link" : "/farm",
+          "linkText" : "Farm",
+          "displayOrder" : 40,
+          "onMenu" : false
+        }
+    },
+    "forSale" : {
+        "produce" : {
+            "eggs" : {
+                "title" : "Fresh free range eggs",
+                "content" : "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p><p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p><p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p><p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p><p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p><p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>",
+                "price" : 1.2,
+                "images" : ["eggs.jpg"]
+            },
+            "meat" : {
+                "title" : "Meat",
+                "content" : "<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p>",
+                "price" : 50,
+                "images" : ["lamb.jpg"]
+            }
+        },
+        "livestock" : {
+            "sheep-1" : {
+                "title" : "Pedigree Devon and Cornwall Longwool Ram",
+                "content" : "<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p>",
+                "images" : ["dcram.png","wenewe.png","dcewe.png"]
+            },
+            "sheep-2" : {
+                "title" : "Wensleydale ewe",
+                "content" : "<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p>",
+                "images" : ["wenewe.png","eggs.jpg","LLewe01.jpg","morag01.jpg","chooks.jpg"]
+            },
+            "sheep-3" : {
+                "title" : "Devon and Cornwall Longwool ewe",
+                "content" : "<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p><p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p><p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p><p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p><p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p><p>Nam eget dui. Etiam rhoncus.</p>",
+                "images" : ["dcewe.png"]
+            }
+        }
+    },
+    "gallery" : {
+        "1" : { "image" : "Alice.jpg", "description" : "description" },
+        "2" : { "image" : "Chicks.jpg", "description" : "description" },
+        "3" : { "image" : "dandclamb.jpg", "description" : "description" },
+        "4" : { "image" : "dilambs.jpg", "description" : "description" },
+        "5" : { "image" : "DRC.jpg", "description" : "description" },
+        "6" : { "image" : "eweandlamb.jpg", "description" : "description" },
+        "7" : { "image" : "fleece.jpg", "description" : "A fleece" },
+        "8" : { "image" : "hay.jpg", "description" : "Some hay" },
+        "9" : { "image" : "hi.jpg", "description" : "description" },
+        "10" : { "image" : "mollie.jpg", "description" : "description" },
+        "11" : { "image" : "wensleydale.jpg", "description" : "description" },
+        "12" : { "image" : "wensleydale2.jpg", "description" : "description" },
+        "13" : { "image" : "DandCs.jpg", "description" : "description" }
+    }
+}

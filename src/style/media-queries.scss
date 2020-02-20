@@ -1,0 +1,198 @@
+
+// -- Media queries --------------------------
+
+@media(max-width: 1000px){
+    .etsy{
+        .etsyItems{
+            .item{
+                flex-basis: 100%;
+            }
+        }
+    }
+    .forSale{
+        .item{
+            flex-basis: 100%;
+        }
+    }
+}
+@media(max-width:950px){
+    .content{
+        .flexHolder{
+            .col3{
+                span{
+                    font-size: 1.3em;
+                }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .header{
+        height: 90px;
+        .logo{
+            @include small-logo;
+            position: absolute;
+            left: 50%;
+            margin-left: -51px;
+            width: 102px;
+        }
+        .menu{
+            display: none;
+            background-color: $header-background-colour;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 0 0 20px 0;
+            a{
+                display: block;
+                padding: 20px 0;
+                margin: 0;
+                font-size: 1.5em;
+                text-align: center;
+            }
+        }
+        .mobileMenu{
+            display: block;
+        }
+    }
+    #contactForm{
+        label{
+            margin-bottom: 10px;
+        }
+        input{
+            width: 260px;
+            &[type=submit]{
+                margin-left: 0;
+            }
+        }
+        textarea{
+            width: 260px;
+            min-width: 260px;
+            max-width: 260px;
+        }
+        .required{
+            margin-left: 0;
+        }
+        #emailErrorNote{
+            margin-left: 0;
+        }
+    }
+    .content{
+        .flexHolder{
+            flex-wrap: wrap;
+            .col3{
+                flex-basis: 320px;
+            }
+        }
+    }
+    .footer{
+        div{
+            position: static;
+            top: auto;
+            text-align: center;
+            &.left{
+                left: auto;
+                padding: 20px 0 0 0;
+            }
+            &.right{
+                right: auto;
+                text-align: center;
+                padding: 20px 0 0 0;
+            }
+        }
+        .logo{
+            padding: 20px 0 0 0;
+        }
+        .menu{
+            top: auto;
+            padding: 20px 0 0 0;
+        }
+        .socialMedia{
+            top: auto;
+            right: auto;
+            padding: 20px 0;
+        }
+    }
+}
+@media(max-width:600px){
+    .etsy{
+        .etsyItems{
+            .item div{
+                .info{
+                    float: none;
+                    text-align: center;
+                    img{
+                        display: block;
+                        margin: 0 auto 20px auto;
+                        width: 220px;
+                    }
+                }
+                .description{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        a{
+            display: block;
+            width: 180px;
+            margin: 0 auto;
+        }
+        .visitEtsy{
+            width: 190px;
+            text-align: center;
+            margin: 20px auto 10px auto;
+        }
+    }
+    .forSale{
+        h2{
+            text-align: center;
+            min-height: auto;
+        }
+        .item div:not(.imageCarousel){
+            padding-bottom: 50px;
+            .info{
+                float: none;
+                text-align: center;
+                img{
+                    width: 220px;
+                    display: block;
+                    margin: 0 auto 20px auto;
+                }
+                a{
+                    width: 220px;
+                    display: block;
+                    margin: 50px auto 0 auto;
+                }
+            }
+            .imageCarousel{
+                margin: 0 auto 20px auto;
+                width: 220px;
+                height: 220px;
+            }
+            .description{
+                height: 200px;
+            }
+            .learnMore{
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+    }
+    #modalFade div span#caption{
+        width: 400px;
+        left: calc( 50% - 200px);
+    }
+}
+
+@media(max-width:500px){
+    .galleryHolder{
+        div{
+            cursor: default;
+            &:hover{
+                border: 1px solid $page-background-colour;
+                margin-top: 10px;
+            }
+        }
+    }
+}

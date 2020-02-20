@@ -1,0 +1,71 @@
+
+// -- Footer ---------------------------------
+
+.footer{
+    position: relative;
+    background-color: $header-background-colour;
+    min-height: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    .logo{
+        margin: 0 auto;
+        padding: 35px 0 0 0;
+        width: 100px;
+        display: block;
+    }
+    div{
+        font-size: 0.8em;
+        position: absolute;
+        top: 20px;
+        line-height: 1.2em;
+    }
+    .left{
+        left: 20px;
+    }
+    .right{
+        right: 20px;
+        text-align: right;
+        a{
+            color: $menu-link-colour;
+            cursor: pointer;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            transition: all 0.1s ease-in-out;
+            &:hover{
+                color: $menu-link-colour-hover;
+            }
+        }
+    }
+    .menuHolder{
+        position: static;
+    }
+    .menu{
+        top: 50px;
+        a{
+            margin: 0 0 0 10px;
+        }
+    }
+    .socialMedia{
+        top: 80px;
+        right: 20px;
+        a{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+            margin: 0 0 0 10px;
+        }
+        .facebook{
+            background-image: url('/facebook.png');
+        }
+        .instagram{
+            background-image: url('/instagram.png');
+        }
+        .twitter{
+            background-image: url('/twitter.png');
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}

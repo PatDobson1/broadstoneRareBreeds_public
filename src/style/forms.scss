@@ -1,0 +1,68 @@
+
+// -- Generic --------------------------------
+
+form{
+    label{
+        width: 150px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 8px 0 0 0;
+    }
+    input, textarea{
+        border: 1px solid $text-colour;
+        padding: 5px 10px;
+        font-size: 1.1em;
+        letter-spacing: 0.05em;
+        background-color: #ffffff;
+        color: $text-colour;
+        width: 300px;
+        outline: none;
+        transition: background-color 0.2s ease;
+        &:focus, &:hover{
+            background-color: $page-background-colour;
+        }
+        + span{
+            background-color: $error_red;
+            border-radius: 0 50% 50% 0;
+            padding: 5px 5px 0px 3px;
+            color: $white;
+            vertical-align: top;
+            margin: 7px 0 0 0;
+            display: inline-block;
+        }
+    }
+    textarea{
+        letter-spacing: normal;
+        min-width: 300px;
+        max-width: 600px;
+        min-height: 200px;
+    }
+    input[type=submit]{
+        margin: 0 0 0 150px;
+        width: 150px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        &:hover{
+            background-color: $page-background-colour;
+        }
+    }
+    .required{
+        margin: 0 0 20px 150px;
+        span{
+            border-radius: 50%;
+            background-color: $error_red;
+            color: $white;
+            padding: 5px 5px 0 5px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+    }
+    #emailErrorNote{
+        color: $error_red;
+        margin: 0 0 20px 150px;
+        font-weight: 700;
+    }
+}
+#emailThankYou, #emailError, #emailErrorNote{
+    display: none;
+}

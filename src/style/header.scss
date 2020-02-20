@@ -1,0 +1,20 @@
+
+// -- Header ---------------------------------
+
+.header{
+    position: sticky;
+    z-index: 101;
+    top: 0;
+    height: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $header-background-colour;
+    .logo{
+        position: absolute;
+        top: 27px;
+        left: 20px;
+    }
+    .menu{
+        top: 50px;
+    }
+}

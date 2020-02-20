@@ -1,0 +1,206 @@
+
+// -- For Sale -------------------------------
+
+// -- Etsy -----------------------
+.etsy{
+    .etsyItems{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .item{
+            box-sizing: border-box;
+            flex-basis: 50%;
+            padding: 10px;
+            div{
+                position: relative;
+                background-color: $page-background-colour;
+                padding: 20px;
+                min-height: 440px;
+                &.open .description{
+                    height: auto;
+                }
+                .description{
+                    height: 250px;
+                    overflow: hidden;
+                    line-height: 1.2em;
+                    margin: 0 0 30px 0;
+                }
+                .info{
+                    background-color: transparent;
+                    float: left;
+                    margin: 0 20px 0 0;
+                    padding: 0;
+                    font-size: 1.2em;
+                    img{
+                        margin: 0 0 20px 0;
+                    }
+                }
+                .learnMore{
+                    position: absolute;
+                    cursor: pointer;
+                    bottom: 20px;
+                    right: 30px;
+                    color: $header-background-colour;
+                    border: 1px solid $header-background-colour;
+                    background-color: $white;
+                    padding: 5px 10px;
+                    &:hover{
+                        background-color: $page-background-colour;
+                        color: $text-colour;
+                    }
+                }
+            }
+        }
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        background-color: $white;
+        color: $header-background-colour;
+        border: 2px solid $header-background-colour;
+        padding: 5px 20px;
+        transition: all 0.1s ease;
+        &:hover{
+            background-color: $page-background-colour;
+            color: $text-colour;
+        }
+    }
+    .visitEtsy{
+        margin: 10px 0 0 10px;
+    }
+}
+
+// -- Produce/Livestock ----------
+.forSale{
+    display: flex;
+    flex-wrap: wrap;
+    h2{
+        min-height: 60px;
+    }
+    .item{
+        flex-basis: 50%;
+        padding: 10px;
+        div:not(.imageCarousel){
+            padding: 20px;
+            min-height: 470px;
+            position: relative;
+            background-color: $page-background-colour;
+            .info{
+                float: left;
+                margin: 0 20px 20px 0;
+                img{
+                    width: 250px;
+                    margin: 0 0 20px 0;
+                }
+                p{
+                    font-size: 1.4em;
+                }
+                a.small{
+                    font-size: 0.7em;
+                    text-align: center;
+                }
+                .contact{
+                    text-align: center;
+                }
+            }
+            .learnMore{
+                position: absolute;
+                cursor: pointer;
+                bottom: 30px;
+                right: 30px;
+                color: $header-background-colour;
+                border: 1px solid $header-background-colour;
+                background-color: $white;
+                padding: 5px 10px;
+                &:hover{
+                    background-color: $page-background-colour;
+                    color: $text-colour;
+                }
+            }
+            .description{
+                height: 270px;
+                padding: 0 0 30px 0;
+                overflow: hidden;
+            }
+            a{
+                display: inline-block;
+                text-decoration: none;
+                background-color: $white;
+                color: $header-background-colour;
+                border: 2px solid $header-background-colour;
+                padding: 5px 20px;
+                transition: all 0.1s ease;
+                &:hover{
+                    background-color: $page-background-colour;
+                    color: $text-colour;
+                }
+            }
+            &.open{
+                .description{
+                    height: auto;
+                }
+            }
+        }
+        div.imageCarousel{
+            position: relative;
+            height: 250px;
+            width: 250px;
+            margin: 0 0 50px 0;
+            span span{
+                &.left, &.right{
+                    position: absolute;
+                    cursor: pointer;
+                    bottom: 0;
+                    height: 40px;
+                    background-image: url(/next.png);
+                    width: 40px;
+                    display: block;
+                    background-size: 30px;
+                    background-color: rgba(255,255,255,0.5);
+                    background-repeat: no-repeat;
+                    transition: width 0.1s ease-in-out;
+                }
+                &.right{
+                    right: 0px;
+                    background-position: 8px 50%;
+                    border-radius: 10px 0 0 0;
+                }
+                &.left{
+                    left: 0px;
+                    background-position: 8px 50%;
+                    border-radius: 0 0 0 10px;
+                    transform: rotate(180deg);
+                }
+                &.dots span{
+                    background-color: $header-background-colour;
+                    border-radius: 50%;
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    transition: background-color 0.2s ease;
+                    &:hover{
+                        background-color: $text-colour;
+                    }
+                    &.active{
+                        background-color: $text-colour;
+                    }
+                }
+                &:hover{
+                    width: 50px;
+                }
+                &.dots{
+                    bottom: -60px;
+                    left: 0;
+                    right: 0;
+                    display: block;
+                    width: 100%;
+                    background-image: none;
+                    background-color: transparent;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

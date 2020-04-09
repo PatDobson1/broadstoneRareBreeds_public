@@ -1,6 +1,6 @@
 # Broadstone Rare Breeds
 
-A website in React for Bradostone Rare Breeds.
+A website in React for Broadstone Rare Breeds.
 
 Page data is taken from a JSON file.
 
